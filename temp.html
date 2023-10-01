@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="temp.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <h1>Temperature Converter</h1>
+
+        <select name="choices" id="choices">
+            <option value="c2k">Celcius To Kelvin</option>
+            <option value="c2f">Celcius To Fahrenhiet</option>
+            <option value="k2c">Kelvin To Celcius</option>
+            <option value="k2f">Kelvin To Fahrenhiet</option>
+            <option value="f2c">Fahrenhiet To Celcius</option>
+            <option value="f2k">Fahrenhiet To Kelvin</option>
+        </select>
+        <br>
+        <span>
+            <label for="box1">Enter Value : <br></label>
+            <input type="number" name="box1" class="uservalue" required>
+        </span>
+        <br>
+        <button>Calculate</button>
+
+        <div id="result-text">Answer = 12345</div>
+    </div>
+
+    <script src="temp.js"></script>
+</body>
+</html>
